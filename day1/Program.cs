@@ -19,7 +19,7 @@ namespace Day1Part1
         public static void Day1part1()
         {
 
-            char[] text = File.ReadAllText(@"E:\adventofcode2015\day1part1\Day1Part1\part1day1.txt").ToCharArray();
+            char[] text = File.ReadAllText(@"").ToCharArray();
             /*Console.WriteLine(text);*/
 
 
@@ -38,7 +38,7 @@ namespace Day1Part1
 
         public static void Day1part2()
         {
-            char[] text = File.ReadAllText(@"E:\adventofcode2015\day1part1\Day1Part1\part1day1.txt").ToCharArray();
+            char[] text = File.ReadAllText(@"").ToCharArray();
             int stop=0;
             /*Console.WriteLine(text);*/
 
