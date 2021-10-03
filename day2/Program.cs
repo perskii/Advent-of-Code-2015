@@ -19,7 +19,7 @@ namespace Day2
 
         private static void Part1()
         {
-            Console.WriteLine(File.ReadAllLines(@"E:\adventofcode2015\day2\Day2\input.txt")
+            Console.WriteLine(File.ReadAllLines(@"")
             .Select(_ => _.Split('x'))
             .Select(_ => _.Select(Int32.Parse))
             .Select(z => z.OrderBy(x => x).ToArray())
@@ -28,7 +28,7 @@ namespace Day2
         }
         private static void Part2()
         {
-            Console.WriteLine(File.ReadAllLines(@"E:\adventofcode2015\day2\Day2\input.txt")
+            Console.WriteLine(File.ReadAllLines(@"")
                 .Select(_ => _.Split('x'))
                 .Select(_ => _.Select(Int32.Parse))
                 .Select(x => x.OrderBy(x => x).ToArray())
